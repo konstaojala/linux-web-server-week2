@@ -95,6 +95,15 @@ def home():
         by one. SQLite saves the count so it is not lost when
         the application restarts.
     </p>
+
+<h2>Project Source Code</h2>
+<p>
+    You can view my Python application on
+    <a href="https://github.com/konstaojala/linux-web-server-week2">
+        GitHub
+    </a>.
+</p>
+
 </body>
 </html>
     """
