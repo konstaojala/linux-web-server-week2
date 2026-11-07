@@ -94,6 +94,15 @@ def home():
         Every time the page loads the visitor counter increases
         by one. SQLite saves the count so it is not lost when
         the application restarts.
+<h2>Reboot Test</h2>
+<p>
+    I restarted my Ubuntu virtual machine to test
+    the application. After rebooting, both websites
+    were accessible, and the visitor counter continued
+    from its previous value. This confirms that SQLite
+    stores the count persistently.
+</p>
+
     </p>
 
 <h2>Project Source Code</h2>
