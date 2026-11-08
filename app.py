@@ -45,12 +45,12 @@ def home():
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>My Python Web App — Week 2</title>
+    <title>My Python Web App  Week 2</title>
 
     <style>
         body {{
             max-width: 850px;
-            margin: 50px auto;
+            margin: 0px auto;
             padding: 25px;
             background: #151515;
             color: #f2f2f2;
@@ -77,32 +77,35 @@ def home():
             font-weight: bold;
             color: #ffd54a;
         }}
+	a {{
+    	    color: #4ade80;
+	}}
     </style>
 </head>
 
 <body>
-    <h1>My Python Web Application</h1>
+<h1>My Python Web Application</h1>
 
     <p>Welcome to Week 2 of my Linux web server project.</p>
 
     <h2>Visitor Counter</h2>
     <p class="counter">{visits}</p>
 
-    <h2>How does it work?</h2>
-    <p>
-        This webpage uses Python Flask and an SQLite database.
+<h2>How does it work?</h2>
+<p>
+ 	This webpage uses Python Flask and an SQLite database.
         Every time the page loads the visitor counter increases
         by one. SQLite saves the count so it is not lost when
         the application restarts.
 
 <h2>Reboot Test</h2>
 <p>
-    I restarted my Ubuntu server to test the application.
-    After the reboot, both my Week 1 and Week 2 websites
-    were still working. The visitor counter continued
-    increasing from its previous value instead of
-    resetting, confirming that SQLite stores the count
-    permanently.
+	I restarted my Ubuntu server to test the application.
+	After the reboot, both my Week 1 and Week 2 websites
+	were still working. The visitor counter continued
+    	increasing from its previous value instead of
+    	resetting, confirming that SQLite stores the count
+    	permanently.
 </p>
 
     </p>
