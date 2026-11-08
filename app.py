@@ -34,7 +34,7 @@ def get_visit_count():
     return count
 
 
-@app.route("/viikko2/")
+@app.route("/week2/")
 def home():
     visits = get_visit_count()
 
@@ -91,9 +91,9 @@ def home():
     <h2>Visitor Counter</h2>
     <p class="counter">{visits}</p>
 
-<h2>How does it work?</h2>
+<h2>How it works</h2>
 <p>
- 	This webpage uses Python Flask and an SQLite database.
+ 	This webpage uses Python Flask and SQLite database.
         Every time the page loads the visitor counter increases
         by one. SQLite saves the count so it is not lost when
         the application restarts.
@@ -101,11 +101,11 @@ def home():
 <h2>Reboot Test</h2>
 <p>
 	I restarted my Ubuntu server to test the application.
-	After the reboot, both my Week 1 and Week 2 websites
+	After the reboot, both my week 1 and week 2 websites
 	were still working. The visitor counter continued
-    	increasing from its previous value instead of
+    	to increase from its previous number instead of
     	resetting, confirming that SQLite stores the count
-    	permanently.
+	afer reboot.
 </p>
 
     </p>
